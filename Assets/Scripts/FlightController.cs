@@ -15,7 +15,8 @@ public class FlightController : MonoBehaviour
 
     void Start()
     {
-        // TODO: Will be implemented in next iteration
+        rb = GetComponent<Rigidbody>();
+        rb.freezeRotation = true;
     }
 
     void Update()
